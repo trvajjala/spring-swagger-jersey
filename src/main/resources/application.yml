@@ -1,0 +1,24 @@
+#JPA configuration
+spring:
+  datasource:
+    url: jdbc:h2:mem:shopping;db_close_on_exit=false
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    
+    
+#server configuration
+server:
+  port: ${appPort:8084}
+
+# Spring MVC dispatcher servlet path. Needs to be different than Jersey's to enable/disable Actuator endpoints access (/info, /health, ...)
+server.servlet-path: /
+# Jersey dispatcher servlet
+spring.jersey.application-path: /api
