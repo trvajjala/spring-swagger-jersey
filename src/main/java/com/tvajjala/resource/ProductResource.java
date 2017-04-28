@@ -1,4 +1,4 @@
-package com.avenuecode.resource;
+package com.tvajjala.resource;
 
 import java.util.List;
 
@@ -18,8 +18,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
 
-import com.avenuecode.persistence.model.Product;
-import com.avenuecode.service.ProductService;
+import com.tvajjala.persistence.model.Product;
+import com.tvajjala.service.ProductService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

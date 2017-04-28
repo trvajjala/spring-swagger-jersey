@@ -1,4 +1,4 @@
-package com.avenuecode.util;
+package com.tvajjala.util;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -6,8 +6,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 
-import com.avenuecode.persistence.model.OnlineOrder;
-import com.avenuecode.persistence.model.OrderLineItem;
+import com.tvajjala.persistence.model.OnlineOrder;
+import com.tvajjala.persistence.model.OrderLineItem;
 
 public class OrderUtil {
     /**

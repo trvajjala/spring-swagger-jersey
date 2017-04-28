@@ -1,9 +1,9 @@
-package com.avenuecode.service;
+package com.tvajjala.service;
 
-import static com.avenuecode.util.OrderUtil.calculatePrices;
-import static com.avenuecode.util.OrderUtil.getName;
-import static com.avenuecode.util.OrderUtil.getOrderNumber;
-import static com.avenuecode.util.OrderUtil.getPhoneNumber;
+import static com.tvajjala.util.OrderUtil.calculatePrices;
+import static com.tvajjala.util.OrderUtil.getName;
+import static com.tvajjala.util.OrderUtil.getOrderNumber;
+import static com.tvajjala.util.OrderUtil.getPhoneNumber;
 
 import java.util.List;
 
@@ -15,11 +15,11 @@ import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.avenuecode.persistence.model.OnlineOrder;
-import com.avenuecode.persistence.model.OrderLineItem;
-import com.avenuecode.persistence.model.Product;
-import com.avenuecode.persistence.repository.OrderRepository;
-import com.avenuecode.persistence.repository.ProductRepository;
+import com.tvajjala.persistence.model.OnlineOrder;
+import com.tvajjala.persistence.model.OrderLineItem;
+import com.tvajjala.persistence.model.Product;
+import com.tvajjala.persistence.repository.OrderRepository;
+import com.tvajjala.persistence.repository.ProductRepository;
 
 /**
  * Creates order service

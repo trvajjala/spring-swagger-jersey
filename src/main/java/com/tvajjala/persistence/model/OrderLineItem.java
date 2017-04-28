@@ -1,4 +1,4 @@
-package com.avenuecode.persistence.model;
+package com.tvajjala.persistence.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

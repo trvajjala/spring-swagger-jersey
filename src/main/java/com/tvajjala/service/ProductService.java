@@ -1,4 +1,4 @@
-package com.avenuecode.service;
+package com.tvajjala.service;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
  *
  */
 
-import com.avenuecode.persistence.model.Product;
-import com.avenuecode.persistence.repository.ProductRepository;
+import com.tvajjala.persistence.model.Product;
+import com.tvajjala.persistence.repository.ProductRepository;
 @Service("productService")
 public class ProductService {
 

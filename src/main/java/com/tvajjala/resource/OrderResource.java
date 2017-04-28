@@ -1,4 +1,4 @@
-package com.avenuecode.resource;
+package com.tvajjala.resource;
 
 import java.util.List;
 
@@ -20,8 +20,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.avenuecode.persistence.model.OnlineOrder;
-import com.avenuecode.service.OrderService;
+import com.tvajjala.persistence.model.OnlineOrder;
+import com.tvajjala.service.OrderService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

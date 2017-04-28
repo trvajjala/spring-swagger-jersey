@@ -1,4 +1,4 @@
-package com.avenuecode.config;
+package com.tvajjala.config;
 
 import javax.annotation.PostConstruct;
 
@@ -10,8 +10,8 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-import com.avenuecode.resource.OrderResource;
-import com.avenuecode.resource.ProductResource;
+import com.tvajjala.resource.OrderResource;
+import com.tvajjala.resource.ProductResource;
 
 import io.swagger.jaxrs.config.BeanConfig;
 import io.swagger.jaxrs.listing.ApiListingResource;

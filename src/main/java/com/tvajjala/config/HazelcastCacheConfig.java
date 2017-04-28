@@ -1,4 +1,4 @@
-package com.avenuecode.config;
+package com.tvajjala.config;
 /**
  *
  * @author ThirupathiReddy V

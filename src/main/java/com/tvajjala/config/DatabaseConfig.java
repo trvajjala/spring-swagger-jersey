@@ -1,4 +1,4 @@
-package com.avenuecode.config;
+package com.tvajjala.config;
 
 import javax.sql.DataSource;
 

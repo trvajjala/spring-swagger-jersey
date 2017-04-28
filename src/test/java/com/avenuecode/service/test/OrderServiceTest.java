@@ -10,10 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.avenuecode.persistence.model.OnlineOrder;
-import com.avenuecode.persistence.model.Product;
-import com.avenuecode.service.OrderService;
-import com.avenuecode.service.ProductService;
+import com.tvajjala.persistence.model.OnlineOrder;
+import com.tvajjala.persistence.model.Product;
+import com.tvajjala.service.OrderService;
+import com.tvajjala.service.ProductService;
 
 /**
  * This test case covers addItem to cart and placing order scenarios
